@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    color: white;
+    font-size: 40px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a div p{
+    visibility: hidden;
+    font-size: 40px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+nav a:hover div p{
+    visibility: visible;
+}
+
+.membro{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 500px;
+    width: 500px;
+}
+
+#fdr{
+    background-image: url("img/bck.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#unkn{
+    background-color: black;
+}
+
+footer{
+    background-color: black;
+    height: 200px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
