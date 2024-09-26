@@ -58,6 +58,12 @@ nav a:hover div p{
     background-size: cover;
 }
 
+#brn{
+    background-image: url("img/bck_brn.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 #unkn{
     background-color: black;
 }
