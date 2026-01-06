@@ -64,6 +64,18 @@ nav a:hover div p{
     background-size: cover; 
 }
 
+#nap{
+    background-image: url("img/bck_nap.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rvr{
+    background-image: url("img/bck_rvr.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 #unkn{
     background-color: black;
 }
